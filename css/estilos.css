@@ -7,6 +7,9 @@
 /* font-family: 'Roboto Slab', serif; */
 
 
+
+/* ----------------- BASICOS  */
+
 body {
 	font-family: 'Roboto Mono', monospace, sans-serif;
 	margin: 0;
@@ -14,7 +17,7 @@ body {
 	/* position: grid;
 	grid-template-rows: 280px 1fr; */
 	height: 100%;
-	position: fixed;
+	/* position: fixed; lo pusieron en el curso pero no es necesario */
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -26,27 +29,56 @@ a {
 	text-decoration: none;
 	display: inline;
 	color: black;
+} 
+
+
+.btn-readmore {
+	border: 2px solid #48cfad;
+	background-color: transparent;
+	padding: 0;
 }
+.btn-readmore a {
+	padding: 10px 24px 10px 16px;
+	display: block;	
+	font-size: 10px;
+	font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+.tittle-section {
+	margin: 0 0 40px;
+	padding: 0 0 20px;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+	font-size: 20px;
+
+}
+
+
+
+
+
+/* ----------------- BASICOS  */
+
+/* ----------------- HEADER  */
 
 header {
 	/* background: red; */
 	width: 100%;
 	display: grid;
-	grid-template-rows: 100px 280px;
+	grid-template-rows: 50px 140px;
 }
 header .header-social{
 	background-color: #48cfad;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	padding-right: 30px;
+	padding-right: 45px;
 }
 
 .header-social .icons span[class^="flaticon-"]:before {
-	font-size: 50px;
+	font-size: 25px;
 	color: white;
-	margin-left: 0px;
-	margin-right: 50px;
+	margin-left: 24px; 
 }
 
 
@@ -57,29 +89,34 @@ header .nav-container {
 	align-items: center;
 }
 .nav-logo-container {
-	padding-left: 40px;
+	padding-left: 20px;
 	
 }
 
 .nav-logo-container img{
 	/* border: 1px solid green; */
+	height: 83px;
 }
 
 .nav-profile-container {
 	justify-self: right;
-	padding-right: 80px;
+	padding-right: 40px;
 }
 
 .nav-profile-container a{
 	color: black;
 	border-bottom: 2px solid black;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 
+/* ----------------- HEADER  */
+
+
+/* ----------------- INDEX  */
 
 main {
-	height: calc(100vh - 380px);
+	height: calc(100vh - 190px);
 	display: grid;
 	grid-template-rows: 1fr 1fr;
 	justify-items: center;
@@ -97,16 +134,111 @@ main h1 {
 	text-align: center;
 	align-self: end;
 	color: white;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 main a {
 	/* display: block; */
 	background-color:  #48cfad;
 	align-self: start;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 	padding: 20px 30px;
 	margin-top: 20px;
 
 }
+
+
+/* ----------------- INDEX  */
+
+
+/* ----------------- BLOGS  */
+
+.blogs-content {
+	width: 100%;
+	background-color: #e6e9ed;
+	padding: 10px 45px 36px;
+	box-sizing: border-box;
+
+}
+.blogs-destacada  {	
+	max-width: 960px;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	grid-template-rows: 40px 1fr;
+
+
+
+}
+
+.destacada-titulo {
+	grid-column: 1 / span 2;
+}
+.destacada-titulo h2 {
+	margin: 0;
+	font-size: 20px;
+}
+.destacada-foto {
+	padding-right: 40px;
+}
+
+.destacada-foto img {
+	width: 100%;
+}
+
+.destacada-contenido {
+	/* border: 1px solid red; */
+}
+
+.destacada-contenido h1 {
+	margin: 30px 0 20px;
+	font-size: 36px;
+}
+
+.destacada-contenido p {
+	margin: 12px 0 20px;
+	font-size: 12px;
+}
+
+.lastposts {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.lastposts-blogspots {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px 50px;
+	
+}
+.blogspot-cointainer {
+}
+.blogspot-cointainer img {
+	width: 100%;
+}
+.blogspot-cointainer h3{
+	margin: 10px 0 5px;
+}
+.blogspot-cointainer p {
+	margin: 0 0 10px;
+	font-size: 12px;
+}
+
+
+/* ----------------- BLOGS  */
+
+
+
+
+
+
+/* ----------------- FOOTER  */
+
+footer {
+
+}
+
+/* ----------------- FOOTER  */
