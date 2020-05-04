@@ -80,6 +80,7 @@ header .header-social{
 	display: flex;
 	justify-content: flex-end;
 	box-sizing: border-box;
+	padding-right: 40px;
 }
 
 .header-social .icons span[class^="flaticon-"]:before {
@@ -97,6 +98,7 @@ header .nav-container {
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	box-sizing: border-box;
+	padding: 0 40px;
 }
 
 
@@ -120,11 +122,9 @@ header .nav-container {
 
 .header-index .header-social .icons {
 	max-width: none;
-	padding-right: 40px;
 }
 .header-index .nav-container {
 	max-width: none;
-	padding: 0 40px;
 }
 
 
@@ -176,7 +176,7 @@ main a {
 .blogs-content {
 	width: 100%;
 	background-color: #e6e9ed;
-	padding: 10px 45px 36px;
+	padding: 10px 40px 40px;
 	box-sizing: border-box;
 
 }
@@ -185,11 +185,11 @@ main a {
 	margin: 0 auto;
 
 	display: grid;
-	grid-template-columns: 3fr 2fr;
+	grid-template-columns: 2fr 1fr;
 	grid-template-rows: 40px 1fr;
 
-
-
+	padding: 0 30px;
+	box-sizing: border-box;
 }
 
 .destacada-titulo {
@@ -221,10 +221,13 @@ main a {
 	font-size: 12px;
 }
 
+
+
 .lastposts {
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 50px 0;
+	box-sizing: border-box;
+	padding: 50px 30px 60px 30px;
 }
 
 .lastposts-blogspots {
