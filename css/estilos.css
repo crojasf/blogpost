@@ -238,7 +238,22 @@ main a {
 /* ----------------- FOOTER  */
 
 footer {
-
+	width: 100%;
+	padding-top:30px;
+	background-color: #48cfad;
 }
 
+.footer-content {
+	background-color: #23282d;
+	display: grid;
+	height: 60px;
+	align-items: center;
+	justify-items: center;
+}
+
+.footer-content p {
+	margin: 0;
+	color: white;
+	font-size: 12px;
+}
 /* ----------------- FOOTER  */
