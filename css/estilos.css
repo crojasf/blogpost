@@ -8,13 +8,21 @@
 
 
 body {
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
+	/* position: grid;
+	grid-template-rows: 280px 1fr;
+	height: 100%; */
 	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+
+	background-image: url("../assets/images/Cover.png");
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 a {
@@ -24,28 +32,48 @@ a {
 }
 
 header {
-	background: red;
+	/* background: red; */
 	width: 100%;
-	height: 280px;
 	display: grid;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 100px 1fr;
 }
 header .header-social{
 	background-color: #48cfad;
-	height: 100px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	padding-right: 30px;
 }
 
-
-.header-social a {
-	padding-right: 50px;
+.header-social .icons span[class^="flaticon-"]:before {
+	font-size: 50px;
+	color: white;
+	margin-left: 0px;
+	margin-right: 50px;
 }
+
 
 header .nav-container {
-	display: flex;
+	display: grid;
 	grid-template-columns: 1fr 1fr;
-	justify-content: space-between;
+	/* justify-content: space-evenly; */
+	align-items: center;
+
+
+
+
 }
+.nav-logo-container img{
+	/* border: 1px solid green; */
+}
+.nav-profile-container {
+	justify-self: right;
+	padding-right: 80px;
+}
+
+.nav-profile-container a{
+	color: white;
+	border-bottom: 2px solid white;
+	font-size: 30px;
+}
+
