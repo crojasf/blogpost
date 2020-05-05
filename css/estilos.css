@@ -162,14 +162,14 @@ header .nav-container {
 	text-align: center;
 	align-self: end;
 	color: white;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .home-main a {
 	/* display: block; */
 	background-color:  #48cfad;
 	align-self: start;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	padding: 20px 30px;
 	margin-top: 20px;
@@ -356,6 +356,77 @@ header .nav-container {
 
 
 /* ----------------- CONTACTS  */
+
+
+/* ----------------- PROFILE  */
+
+.profile {
+}
+.profile__about--container {
+	width: 100%;
+	background-color: #e6e9ed;
+	padding: 65px 0;
+
+}
+.profile__about {
+
+	width: 100%;
+	max-width: 960px;
+	padding: 0 45px;
+	box-sizing: border-box;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+
+
+}
+.about__image  {
+	width: 100%;
+}
+
+.about__image img {
+	width: 100%;
+}
+
+.about__description {
+	padding-left: 35px;
+}
+
+.about__description h2 {
+	margin: 0 0 10px;
+    font-size: 40px;
+}
+
+
+.profile__projects {
+	
+	width: 100%;
+	max-width: 960px;
+	padding: 50px 45px;
+	box-sizing: border-box;
+	margin: 0 auto;
+
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px 50px;
+}
+
+.projects__project h3 {
+	margin: 0 0 10px;
+}
+
+
+.projects__project p {
+	margin-top: 0;
+	font-size: 12px;
+}
+
+
+/* ----------------- PROFILE  */
 
 
 /* ----------------- FOOTER  */

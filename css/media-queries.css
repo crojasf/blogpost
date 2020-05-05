@@ -1,0 +1,47 @@
+@media screen and (max-width:900px) {
+
+.blogs-destacada {
+	display: block;
+}
+
+.destacada-titulo {
+	padding-bottom: 10px;
+}
+
+.profile__about {
+	display: block;
+}
+
+
+.lastposts-blogspots {
+	grid-template-columns: 1fr 1fr;
+}
+
+.projects {
+	grid-template-columns: 1fr 1fr;
+
+}
+
+/*   FIN ---- MEDIA 900px */
+}
+
+
+@media screen and (max-width:600px) {
+
+	.lastposts-blogspots {
+		grid-template-columns: 1fr;
+	}
+
+	.projects {
+		grid-template-columns: 1fr;
+	
+	}
+
+.contacts__container {
+	grid-template-columns: 1fr;
+	row-gap: 40px;
+
+}
+
+/*   FIN ---- MEDIA 600px */
+}
