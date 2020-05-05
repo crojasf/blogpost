@@ -50,7 +50,13 @@ a {
 	text-align: center;
 	border-bottom: 1px solid #cccccc;
 	font-size: 20px;
-
+}
+.subtittle-section {
+	margin: 0 0 40px;
+	padding: 0 0 20px;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+	font-size: 10px;
 }
 
 
