@@ -56,7 +56,7 @@ a {
 	padding: 0 0 20px;
 	text-align: center;
 	border-bottom: 1px solid #cccccc;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 
@@ -259,8 +259,98 @@ header .nav-container {
 /* ----------------- BLOGS  */
 
 
+/* ----------------- BLOG  */
+
+.blogpost-imagen,
+.blog-post {
+	/* border: 1px solid red; */
+	max-width: 960px;
+	width: 100%;
+	padding: 0 45px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.blogpost-imagen {
+	overflow: hidden;
+}
 
 
+.blogpost-imagen img {
+	width: 100%;
+	display: block;
+	margin:-10% 0;
+}
+
+.blog-post {
+	padding: 45px;
+}
+
+.blog-post__container {
+	width: 100%;
+	max-width: 580px;
+	margin: 0 auto;
+
+}
+
+.blog-post .subtittle-section {
+	text-align: left;
+}
+
+.blog-post__title {
+	margin-top: 0;
+}
+
+
+/* ----------------- BLOG  */
+
+
+/* ----------------- CONTACTS  */
+
+.contacts {
+	/* border: 1px solid red; */
+	width: 100%;
+	padding: 0 45px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: #e6e9ed;
+}
+.contacts__container {	
+	max-width: 960px;
+	width: 100%;
+	padding: 35px 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
+}
+.contacts__contact {
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	align-items: end ;
+
+}
+.contact__image img {
+	width: 100%;
+}
+
+.contact__description {
+	padding: 0 20px;
+}
+
+.contact__description a {
+	border-bottom: 1px solid black;
+}
+
+.contact__description p {
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+
+
+/* ----------------- CONTACTS  */
 
 
 /* ----------------- FOOTER  */
