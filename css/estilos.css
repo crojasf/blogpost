@@ -52,11 +52,11 @@ a {
 	font-size: 20px;
 }
 .subtittle-section {
-	margin: 0 0 40px;
-	padding: 0 0 20px;
+	margin: 0;
+	padding-bottom: 5px;
 	text-align: center;
 	border-bottom: 1px solid #cccccc;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 
@@ -95,6 +95,9 @@ header .header-social{
 	margin-left: 24px; 
 }
 
+header nav {
+	display: grid;
+}
 
 header .nav-container {
 	max-width: 960px;
@@ -200,6 +203,7 @@ header .nav-container {
 
 .destacada-titulo {
 	grid-column: 1 / span 2;
+
 }
 .destacada-titulo h2 {
 	margin: 0;
@@ -297,7 +301,8 @@ header .nav-container {
 }
 
 .blog-post__title {
-	margin-top: 0;
+	margin-top: 20px;
+    font-size: 40px;
 }
 
 
