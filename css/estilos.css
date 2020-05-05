@@ -134,7 +134,7 @@ header .nav-container {
 
 /* ----------------- INDEX  */
 
-main {
+.home-main {
 	height: calc(100vh - 190px);
 	display: grid;
 	grid-template-rows: 1fr 1fr;
@@ -147,7 +147,7 @@ main {
 	background-size: cover;
 }
 
-main h1 {
+.home-main h1 {
 	width: 800px;
 	margin: 0 auto;
 	text-align: center;
@@ -156,7 +156,7 @@ main h1 {
 	font-size: 40px;
 }
 
-main a {
+.home-main a {
 	/* display: block; */
 	background-color:  #48cfad;
 	align-self: start;
